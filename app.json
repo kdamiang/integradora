@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "your-confort-mobile",
+    "slug": "your-confort-mobile",
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.eduardo18xvlll.yourconfortmobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": [
+      "your-confort-mobile",
+      "fb864857731153274"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "af345724-774c-47fb-91bd-7d89782eff61"
+      }
+    }
+  }
+}
